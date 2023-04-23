@@ -25,6 +25,13 @@ with open("studentgwa.txt", "r") as input_file:
                 max_gwa = gwa
                 max_name = name
         
+            # Check if the current name matches the input name
+            if user_name.lower() == name.lower():
+                user_gwa = gwa
+        
+    # Print the student with the highest GWA
+    print(f"The student with the highest GWA is {max_name} with a GWA of {max_gwa:.2f}.")
+    
 # Print the student with the highest GWA
     
 # Print the GWA of the user if it was found
