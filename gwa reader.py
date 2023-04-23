@@ -38,4 +38,4 @@ with open("studentgwa.txt", "r") as input_file:
     else:
         print(f"Sorry, we could not find your GWA in our records.")
         
-    print("\nThank you for using this toolSh\n")
+    print("\nThank you for using this tool\n")
