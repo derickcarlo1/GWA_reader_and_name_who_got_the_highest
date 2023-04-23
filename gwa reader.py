@@ -12,7 +12,12 @@ with open("studentgwa.txt", "r") as input_file:
     
     # Read gwa.txt line by line
     for line in input_file:
+        
 # Split each line into name and gwa
+        profile = line.strip().rsplit(' ', 1)
+        if len(profile) == 2:
+            name, gwa = profile
+            gwa = float(gwa)
             
 # Check if the current gwa is greater than the maximum gwa
                 
