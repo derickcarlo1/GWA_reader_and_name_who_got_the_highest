@@ -31,7 +31,11 @@ with open("studentgwa.txt", "r") as input_file:
         
     # Print the student with the highest GWA
     print(f"The student with the highest GWA is {max_name} with a GWA of {max_gwa:.2f}.")
-    
-# Print the student with the highest GWA
-    
-# Print the GWA of the user if it was found
+
+    # Print the GWA of the user if it was found
+    if user_gwa is not None:
+        print(f"Your GWA is {user_gwa:.2f}.")
+    else:
+        print(f"Sorry, we could not find your GWA in our records.")
+        
+    print("\nThank you for using this toolSh\n")
