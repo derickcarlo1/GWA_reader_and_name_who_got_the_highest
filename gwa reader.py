@@ -1,7 +1,11 @@
 # Greetings for the user
+user_name = input("\nHi, welcome! Please enter your name: ")
+print(f"\nHi {user_name}! Please wait...Uploading your GWA data.\n")
 
 # Set variables for maximum gwa and for the student name
-
+max_gwa = 5.00
+max_name = ""
+user_gwa = None
 # Open gwa.txt (read)
     
 # Read gwa.txt line by line
